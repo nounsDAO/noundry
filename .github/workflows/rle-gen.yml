@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: solimander/nounish-rle-action@v1.0.0-alpha.1
+      - uses: solimander/nounish-rle-action@v1.0.0-alpha.2
         with:
           rootDirectoryPath: traits
           outputPath: image-data.json

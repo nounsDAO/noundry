@@ -21,4 +21,4 @@
 
 - [ ] Included traits are 32x32 pixel PNG images
 - [ ] Trait files are named appropriately
-- [ ] CCO license agreement has been accepted
+- [ ] CC0 license agreement has been accepted

@@ -1,6 +1,10 @@
 # Noundry
 
-Welcome to the Noundry, a workshop for potential, community-sourced Noun traits.
+Welcome to the Noundry, a community-sourced Noun trait workshop.
+
+![thenouning](https://user-images.githubusercontent.com/85371573/153062899-2b3ce450-197c-4c45-8856-859553c72527.jpg)
+
+Submit trait artwork now for potential inclusion in the Nouns protocol!
 
 ## Introduction
 

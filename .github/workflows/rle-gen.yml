@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  rle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/nounish-rle-action@v1.0.0-alpha
+        with:
+          rootDirectoryPath: traits
+          outputPath: image-data.json
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      - name: commit
+        run: |
+          git add image-data.json
+          git commit -m "Update run-length encoded image data"
+          git push origin main

@@ -28,7 +28,7 @@ Noun artwork, called traits, can be voted into the protocol via a [Nouns DAO pro
   - [Fork, edit, and preview](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces/creating-a-codespace) using [GitHub Codespaces](https://github.com/features/codespaces) without having to install and run the project locally.
 
 ### 2. Commit your artwork
-- Noun traits must be submitted as 32x32 pixel PNG images. Each image must contain a single trait, which is placed in the correct [trait](./traits) sub-folder. The following trait types are accepted, with the first being the lowest layer: `bodies`, `accessories`, `heads`, `glasses`. A trait which precedes your custom trait may paint over some or all of it.
+- Noun traits must be submitted as 32x32 pixel PNG images. Each image must contain a single trait, which is placed in the correct [trait](./traits) sub-folder. The following trait types are accepted, with the first being the lowest layer: `bodies`, `accessories`, `heads`, `glasses`. A trait which proceeds your custom trait may paint over some or all of it.
 - Ensure Noun trait files are named appropriately. For example, a file containing a boat head should be called `boat.png`.
 - By contributing to this repository, you release all committed artwork under a Creative Commons license; waiving all copyright and related rights to the artwork. Read the contributor license agreement [here](./CLA.md).
 - Keep it _nounish_. Artwork that is explicit, hateful, or otherwise inappropriate will not be accepted.

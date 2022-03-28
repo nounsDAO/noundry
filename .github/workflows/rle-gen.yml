@@ -16,7 +16,7 @@ jobs:
       - uses: sergeysova/jq-action@v2
         id: existing-palette
         with:
-          cmd: jq .palette existing-palette.json
+          cmd: 'jq .palette existing-palette.json'
           multiline: true
       - uses: solimander/nounish-rle-action@v1.0.0-alpha.3
         with:

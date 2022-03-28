@@ -20,7 +20,7 @@ jobs:
         with:
           rootDirectoryPath: traits
           outputPath: image-data.json
-          existingPalette: ${{ join(steps.existing-palette.outputs.value) }}
+          existingPalette: ${{ join(fromJSON(steps.existing-palette.outputs.value)) }}
       - name: setup git config
         run: |
           git config user.name "GitHub Actions Bot"

@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: output existing color palette
         id: existing-palette
-        run: echo "::set-output name=colors::$(jq .palette existing-palette.json)"
+        run: echo "::set-output name=colors::$(jq .palette ../existing-palette.json)"
       - uses: actions/checkout@v2
       - uses: solimander/nounish-rle-action@v1.0.0-alpha.3
         with:

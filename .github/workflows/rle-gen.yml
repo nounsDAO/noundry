@@ -12,15 +12,16 @@ jobs:
   rle:
     runs-on: ubuntu-latest
     steps:
-      - name: output existing color palette
+      - uses: sergeysova/jq-action@v2
         id: existing-palette
-        run: echo "::set-output name=colors::$(jq .palette ../existing-palette.json)"
+        with:
+          cmd: jq .palette existing-palette.json
       - uses: actions/checkout@v2
       - uses: solimander/nounish-rle-action@v1.0.0-alpha.3
         with:
           rootDirectoryPath: traits
           outputPath: image-data.json
-          existingPalette: ${{ join(steps.existing-palette.outputs.colors) }}
+          existingPalette: ${{ join(steps.existing-palette.outputs.value) }}
       - name: setup git config
         run: |
           git config user.name "GitHub Actions Bot"

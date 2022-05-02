@@ -11,6 +11,7 @@ on:
 jobs:
   rle:
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'NounsDAO'
     steps:
       - uses: actions/checkout@v2
       - name: output existing color palette

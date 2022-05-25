@@ -1,6 +1,6 @@
 ## Description
 
-<!-- Please include a summary of the change abd relevant motivation and context. -->
+<!-- Please include a summary of the change and relevant motivation and context. -->
 
 ## Type of Change
 

@@ -1,0 +1,23 @@
+name: Check Artwork
+
+on:
+  pull_request:
+    branches:
+      - "**"
+    paths:
+      - traits/**/*.png
+
+jobs:
+  rle_validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: output existing color palette
+        id: existing-palette
+        run: echo "::set-output name=value::$(echo $(jq .palette existing-palette.json))"
+      - name: Check if all artworks can be encoded without error
+        uses: solimander/nounish-rle-action@v1.0.0-alpha.3
+        with:
+          rootDirectoryPath: traits
+          outputPath: image-data.json
+          existingPalette: ${{ join(fromJSON(steps.existing-palette.outputs.value)) }}

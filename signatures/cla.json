@@ -87,6 +87,14 @@
       "created_at": "2022-05-28T03:16:34Z",
       "repoId": 455661711,
       "pullRequestNo": 23
+    },
+    {
+      "name": "mai-nakagawa",
+      "id": 2883424,
+      "comment_id": 1154636070,
+      "created_at": "2022-06-14T02:19:49Z",
+      "repoId": 455661711,
+      "pullRequestNo": 24
     }
   ]
 }

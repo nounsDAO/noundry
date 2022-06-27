@@ -12,3 +12,8 @@ Subject to the terms and conditions of this agreement, you release all submitted
 ## 2. Source of Contribution
 
 Your contribution is either your original creation, based upon previous work that, to the best of your knowledge, is covered under an appropriate license and you have the right under that license to submit that work with modifications, whether created in whole or in part by you.
+
+
+I have read the CLA Document and I hereby sign the CLA
+
+Ian by Design

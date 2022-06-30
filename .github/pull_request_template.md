@@ -15,10 +15,10 @@
 
 ### Included Traits
 
-* barcode
-* hypno
-* magnet
-* transparent
+* barcode trait
+* hypno trait
+* magnet trait
+* transparent trait
 
 ### Trait Artwork Checklist:
 

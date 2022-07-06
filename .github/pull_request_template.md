@@ -4,7 +4,7 @@
 
 ## Type of Change
 
-- [ ] Trait artwork submission
+- [x] Trait artwork submission
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Documentation update
@@ -15,10 +15,13 @@
 
 ### Included Traits
 
-* 
+* barcode
+* hypno
+* magnet
+* transparent
 
 ### Trait Artwork Checklist:
 
-- [ ] Included traits are 32x32 pixel PNG images
-- [ ] Trait files are named appropriately
-- [ ] CC0 license agreement has been accepted
+- [x] Included traits are 32x32 pixel PNG images
+- [x] Trait files are named appropriately
+- [x] CC0 license agreement has been accepted

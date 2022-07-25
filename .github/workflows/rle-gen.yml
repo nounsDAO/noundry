@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main, 8-8-trait-candidates ]
+    branches: [ 8-8-trait-candidates ]
     paths:
       - traits/**/*.png
 
@@ -30,4 +30,4 @@ jobs:
         run: |
           git add image-data.json
           git commit -m "Update run-length encoded image data"
-          git push origin main
+          git push origin 8-8-trait-candidates

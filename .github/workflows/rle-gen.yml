@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, 8-8-trait-candidates ]
     paths:
       - traits/**/*.png
 

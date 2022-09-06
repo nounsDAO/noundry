@@ -32,7 +32,7 @@ Noun artwork, called traits, can be voted into the protocol via a [Nouns DAO pro
 - Ensure Noun trait files are named appropriately. For example, a file containing a boat head should be called `boat.png`.
 - By contributing to this repository, you release all committed artwork under a Creative Commons license; waiving all copyright and related rights to the artwork. Read the contributor license agreement [here](./CLA.md).
 - Keep it _nounish_. Artwork that is explicit, hateful, or otherwise inappropriate will not be accepted.
-- Only the initial contributor, or a user with the consent of the initial contributor, can replace exising artwork. Otherwise, artwork should be added as a separate image.
+- Only the initial contributor, or a user with the consent of the initial contributor, can replace existing artwork. Otherwise, artwork should be added as a separate image.
 
 ### 3. Create a Pull Request
 When you're finished with the changes, create a pull request, also known as a PR.
